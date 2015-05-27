@@ -4,8 +4,8 @@ $to = $_POST['phone_number'];
 
 require "Services/Twilio.php";
 // set your AccountSid and AuthToken from www.twilio.com/user/account
-$AccountSid = "ACe44ea6039d38ef988524b2954000e799";
-$AuthToken = "657db431dc9fc5f2b3308e284c8cc9ce";
+$AccountSid = "Dup";
+$AuthToken = "Dup";
 $client = new Services_Twilio($AccountSid, $AuthToken);
 try {
 $message = $client->account->messages->create(array(
